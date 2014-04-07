@@ -130,11 +130,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 header { text-align:center; 
-  color: #fff;
   background-color: #3498db;
   height: 8em;
   width: 100%;
   }
+
+#title {
+  color: #fff;
+  text-decoration: none;
+}
 
 /* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
 ----------------------------------------------------------------------------------------*/
