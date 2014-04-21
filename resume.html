@@ -1,57 +1,26 @@
-<!DOCTYPE html>
-<!-- /ht Paul Irish - http://front.ie/j5OMXi -->
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!doctype html>
+<html>
 <head>
 <meta charset="utf-8">
-<meta name="author" content="Bernard Simon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" media="all">
+
 <!-- section meta -->
 <title>Bernard Simon - Resume</title>
-<meta name="description" content="">
 <!-- endsection meta -->
-<!-- /ht Andy Clarke - http://front.ie/lkCwyf -->
-<meta http-equiv="cleartype" content="on">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-<link rel="shortcut icon" href="/link/to/favicon.ico">
-<link rel="apple-touch-icon" href="/link/to/apple-touch-icon.png">
-
-<!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
-<link rel="stylesheet" href="css/global.css" media="all">
-<link rel="stylesheet" href="css/layout.css" media="all and (min-width: 33.236em)">
-<!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
-
-<!--[if (lt IE 9) & (!IEMobile)]>
-<link rel="stylesheet" href="css/layout.css" media="all">
-<![endif]-->
-
-<script src="js/libs/modernizr-1.7.min.js"></script>
-  
 </head>
-
 <body>
-  
-<header>
-<h1>
-<a id="title" href="index.html">Bernie Simon<br />
-Software Site
-</a></h1>
-</header>
+<div id="container">
 
-<div id="container" class="cf">
-    
-<div id="main" role="main">
+<div id="header">
+<h1 id="banner">Bernie Simon&rsquo;s<br/>
+Software Site</h1>
+</div>
 
+<div id="content">
+<div id="inner-block">
 <!-- section content -->
-<p><b>
-Bernard Simon<br />
-Parkville, Maryland<br />
-<a href="mailto:bernie.simon@gmail.com">bernie.simon@gmail.com</a>
-</b></p>
-
 <h2>
 Summary
 </h2>
@@ -73,31 +42,68 @@ Technologies
 </p>
 
 <h2>
-Experience - Space Telescope Science Institute
+Experience
 </h2>
 
 <h3>
-IT Division - Web Developer 2001-2014
+Space Telescope Science Institute / IT Division<br />
+Senior Software Developer 2001-2014
 </h3>
 
-<ul>
-<li>Developed new Python software products for Zope, a content management system used at the Space Telescope.</li>
-<li>Debugged and patched problems with Zope Python internals, a complex and poorly documented code base.</li>
-<li>Wrote a conflict of interest reporting application. The application was delivered bug free, no users reported problems after delivery.</li>
-<li>Helped write a Java application used for performance appraisals. Required encoding complex business logic about who could view and edit appraisals during their life cycle as a state table.</li>
-<li>Wrote Perl parser that converted between formats, to automate  migration from one Wiki to another, significantly reducing migration time.</li>
-<li>Developed front end code for these and other web applications using HTML, CSS, and JavaScript. Performed full stack application development.</li>
-<li>Designed and wrote sql databases to as a persistent store for web applications using normalization and referential integrity and aware of security issues, such as injection attacks.</li>
-</ul>
-
-<h3>
-Scientific Software Group - Application Developer 1990-2000
-</h3>
+<p>Supported the Space Telescope Institute and astronomical community
+through developing web applications, implementing new products in
+Zope, the Python based content management system, and adding user
+requested enhancements to the Institute web site.</p>
 
 <ul>
-<li>Helped design and write the Calibration Database system, including the C code which added calibration files to the database.</li>
-<li>Wrote statistics analysis package for astronomers, converting a statistician's code into production quality code.</li>
-<li>Wrote the synthetic photometry (synphot) package, a large software package widely used by astronomers.</li>
+<li>Debugged and patched problems with Zope Python internals, a
+complex and poorly documented code base.</li>
+
+<li>Made user requested changes to web site content, writing HTML,
+CSS, and Javascript to handle their requests.</li>
+
+<li>Developed application to collect conflict of interest reports and
+store them in MySQL database for administrative review. The
+application was delivered bug free, no users reported problems after
+delivery.</li>
+
+<li>Part of team that wrote performance appraisal reporting
+application in Java. Required encoding complex business logic about
+who could view and edit appraisals and appraisal state transitions as
+Java classes.</li>
+
+<li>Migrated the content of one Wiki to another by writing a parser to
+convert the data format. This significantly reduced migration time
+from Zope to Confluence.</li>
+
+<li>Added telescope performance metrics and their associated metadata
+to the web site through a Perl program, allowing astronomers to view
+telescope behavior over time.</li>
+
+<li>Modified Zope IP address handling to handle subnet masking after
+Institute address range had been reduced to require it.</li>
+
+<li>Generated nightly a photo gallery of Institute employees organized
+by department. It was produced by a Perl program from information
+stored in LDAP and Active Directory.</li>
+
+<li>Developed web based phone directory application to search Active
+Directory for employees. One of the most widely used pages on the
+site.</li>
+
+<li>Kept astronomers informed of current research by writing web
+scraping script to report when their Institute astronomers had
+uploaded preprints to Arxiv.</li>
+
+<li>Kept website links current by writing link checking
+application. It parsed Apache log files, scraped curators web page,
+doubled checked the errors, and emailed curators about them.</li>
+
+<li>Supported and enhanced the Institute conference registration tool,
+resolving problems that arose during Institute conferences.</li>
+
+<li>Performed code reviews to assess other employees' software for
+security vulnerabilities.</li>
 </ul>
 
 <h2>
@@ -108,21 +114,21 @@ Education
 University of Maryland, College Park<br />
 Bachelor of Science in Physics and Astronomy
 </p>
-
-<h2>
-References
-</h2>
-
-<p>
-Gladly provided upon request.
-</p>
 <!-- endsection content -->
-</div><!-- /main -->
-    
-<footer>
-</footer>
+</div><!-- /inner-block -->
+</div><!-- /content -->
+
+<div id="sidebar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="https://github.com/Jinzang">Github</a></li>
+<li><a href="https://www.linkedin.com/in/simonbernard">Linkedin</a></li>
+<li><a href="http://www.carelesshand.net/">Weblog</a></li>
+</ul>
+</div><!-- /sidebar -->
 
 </div><!-- /container -->
+ 
 </body>
-
 </html>
