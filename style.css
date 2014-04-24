@@ -41,7 +41,7 @@ p, ul, ol, dl, blockquote {
     margin: 0.5em auto;
 }
 #header {
-    margin: auto;
+    margin: 0em auto 1em auto;
     border-bottom: 3px solid #333;
 }
 #banner {
