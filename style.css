@@ -62,7 +62,7 @@ p, ul, ol, dl, blockquote {
     padding: 0;
 }
 
-#ul.nobullet {
+ul.nobullet {
     list-style: none;
     line-height: 2em;
     padding: 0;
