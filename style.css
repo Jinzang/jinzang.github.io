@@ -62,6 +62,12 @@ p, ul, ol, dl, blockquote {
     padding: 0;
 }
 
+#ul.nobullet {
+    list-style: none;
+    line-height: 2em;
+    padding: 0;
+}
+
 @media screen and (min-width: 45em) and (max-width: 60em) {
     #container {
         width: 45em;
