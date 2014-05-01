@@ -39,15 +39,12 @@ subroutine that loads and runs modules:</p>
 
 <pre><code>sub load_and_run_modules {
     my ($self, $modules, $base_directory, $directory, %configuration) = @_;
-
     foreach my $module (@$modules) {
         eval "require $module" or die "Module not found: $module\n";
-
         $configuration{base_directory} = $base_directory;
         my $object = $module-&gt;new(\%configuration);
         $object-&gt;run($directory);
-    }
-
+    }  
     return;
 }
 </code></pre>
