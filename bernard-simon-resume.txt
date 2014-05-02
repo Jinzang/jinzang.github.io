@@ -1,0 +1,65 @@
+Bernard Simon
+1714 Edgewood Road #A
+Parkville, MD  21234
+410-882-4706
+bernie.simon@gmail.com
+www.linkedin.com/in/simonbernard
+
+
+SOFTWARE DEVELOPER
+
+Problem solver, not just a coder.
+
+Works successfully with teams and customers due to good communication skills. Delivers practical and secure solutions that meet customer requests.
+Develops web applications in a Linux environment. Develops numerical applications and designs / implements databases. Strong programming skills with a thorough understanding of OO design. Familiar with front-end web technologies and network protocols. Builds large applications in multiple languages.
+
+TECHNICAL AND SPECIALIZED SKILLS
+
+DATABASES
+- MySQL, Sybase
+LANGUAGES
+- bash, C, Javascript, Perl, and Python
+OPERATING SYSTEMS
+- Linux, OS X, Solaris
+WEB PLATFORMS
+- Apache, Zope
+VERSION CONTROL
+- CVS, Subversion, git
+
+
+EXPERIENCE
+
+SPACE TELESCOPE SCIENCE INSTITUTE / IT DIVISION, Baltimore MD    2001 - 2014
+SENIOR SOFTWARE DEVELOPER
+Supported Space Telescope Institute and astronomical community through web application development, new products implementation in Zope, the Python based content management system, and adding user-requested enhancements to Institute web site.
+- Supported Institute website by debugging and patching problems with Zope Python internals, a complex and poorly documented code base.
+- Handled user requested changes to website content by writing HTML, CSS, and Javascript, meeting user needs.
+- Developed application that collected conflict of interest reports and stored them in MySQL database for administrative review, delivering application bug free, with no users reporting problems after delivery.
+- Wrote performance appraisal reporting application in Java with team members, requiring encoding complex business logic about who could view and edit appraisals and appraisal state transitions as Java classes.
+- Reduced migration time from Zope to Confluence by transferring content of one Wiki to another by writing a parser that converted data format.
+- Added telescope performance metrics and associated metadata to website through Perl program, allowing astronomers to view telescope behavior over time.
+- Solved problem caused by reduction in Institute IP address range by modifying Zope address handling to support subnet masking.
+- Generated photo gallery of Institute employees organized by department on a nightly basis, produced by a Perl program from information stored in LDAP and Active Directory.
+- Developed web-based phone directory application that searched Active Directory for employees, becoming one of the most widely used pages on site.
+- Kept astronomers informed of current research by writing web-scraping script that reported when Institute astronomers had uploaded preprints to Arxiv.
+- Maintained status of website links by writing link-checking application, which parsed Apache log files and curators’ webpage. Double-checked errors, emailing curators about them.
+- Supported and enhanced registration tool, resolving problems during Institute conferences.
+- Performed code reviews, assessing other employees' software for security vulnerabilities.
+
+SPACE TELESCOPE SCIENCE INSTITUTE / SCIENTIFIC SOFTWARE GROUP, Baltimore, MD
+SOFTWARE DEVELOPER
+Wrote applications and libraries supporting data files and formats used by astronomical community to store and process observation data.
+- Added calibration files to database by assisting with designing and writing Calibration Database system, including C code.
+- Initialized user environment for using astronomical software by writing bash scripts and installing new software versions.
+- Wrote statistics package for astronomers, converting a statistician's code into production quality code. Package allowed astronomers to analyze data that was incomplete because of telescope performance limits.
+- Designed and wrote synthetic photometry (synphot) package, a large software package widely used by astronomers to plan proposed telescope observations.
+
+
+EDUCATION
+
+- BACHELOR OF SCIENCE, University of Maryland, College Park, MD
+
+
+PORTFOLIO
+
+- Professional software portfolio hosted at https://github.com/Jinzang/
