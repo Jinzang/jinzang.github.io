@@ -40,6 +40,18 @@ and <a href="bernard-simon-resume.doc">Word</a> format.</p>
 <!-- endsection content -->
 <!-- section secondary -->
 <h2>News</h2>
+<h3>The NeoCities Api</h3>
+
+
+
+<p>Here's another item for the TODO list for App::Followme. <a href="https://neocities.org/api">NeoCities 
+now has an api</a> for uploading and deleting
+files. Since NeoCities was one of the inspirations for writing
+followme, I definitely want to support this by writing a new module for
+followme .   </p>
+    
+
+<p><a href="archive/the-neocities-api.html">Written on May 08, 2014</a></p>
 <h3>New Template Code</h3>
 
 
@@ -68,43 +80,6 @@ tests for the script.</p>
     
 
 <p><a href="archive/cgi-scripts.html">Written on May 02, 2014</a></p>
-<h3>One More Thing</h3>
-
-
-
-<p>After compiling my todo list for followme yesterday, I remembered
-there's one more module that needs to be written. I need a module that
-will generate an rss or atom feed for recently changed files in a
-directory. The most likely use is with together with the blog module
-(App::Followme::CreateNews) but there's no reason it couldn't be used
-for other folders. Which is why I'll write it as a separate module.</p>
-
-<p>Followme loads and runs the modules that are listed in the
-configuration file, which allows you to change the behavior of the
-script without changing the code. Here's the source code for the
-subroutine that loads and runs modules:</p>
-
-<pre><code>sub load_and_run_modules {
-    my ($self, $modules, $base_directory, $directory, %configuration) = @_;
-    foreach my $module (@$modules) {
-        eval "require $module" or die "Module not found: $module\n";
-        $configuration{base_directory} = $base_directory;
-        my $object = $module-&gt;new(\%configuration);
-        $object-&gt;run($directory);
-    }  
-    return;
-}
-</code></pre>
-
-<p>The trick for loading a module at run time is on the eval line. The
-eval is necessary if the module name is not a bareword or a string
-constant. The base directory is the directory containing the
-configuration file, while the directory is what the module is being run
-on. These can be the same or different, depending on which directory
-followme is being run from.</p>
-    
-
-<p><a href="archive/one-more-thing.html">Written on May 01, 2014</a></p>
 <!-- endsection secondary -->
 </div><!-- /inner-block -->
 </div><!-- /content -->
