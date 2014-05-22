@@ -53,8 +53,8 @@ p, ul, ol, dl, blockquote {
 }
 #sidebar {
     padding: 0.5em;
-    background-color: #eee;
-    border: 1px solid #ccc;
+    background-color: #eaeaf0;
+    border: 1px solid #ccd;
 }
 #sidebar ul {
     list-style: none;
